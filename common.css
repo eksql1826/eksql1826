@@ -1,0 +1,208 @@
+/* ------ 21961070 이단비 ------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "맑은 고딕", "돋움";
+  font-size: 12px;
+  color: #444444;
+  background-color: #f8f8f8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #444444;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ----------- header ------------- */
+
+header {
+  height: 160px;
+}
+
+header #top {
+  width: 990px;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* border: solid 1px #0000ff; */
+}
+
+header #logo {
+  float: center;
+  margin: 0 0 0 420px;
+  /* border: solid 1px #000000; */
+}
+
+/* --------- 상단 메뉴 ---------- */
+
+header #top_menu {
+  float: right;
+  margin-top: 5px;
+  /* border: solid 1px #000000; */
+}
+
+header #top_menu a:link {
+  color: #b8b8b8;
+}
+
+header #top_menu a:visited {
+  color: #b8b8b8;
+}
+
+header #top_menu a:hover {
+  color: black;
+}
+
+header #top_menu a:active {
+  color: black;
+}
+
+header #top_menu li {
+  display: inline;
+  margin-left: 10px;
+}
+
+/* --------- 메인 메뉴 ---------- */
+
+header #main_menu {
+  height: 38px;
+  margin-top: 15px;
+  border-bottom: solid 1px black;
+}
+
+header #main_menu ul {
+  width: 990px;
+  margin: auto;
+  /* border: solid 1px #ff0000; */
+  padding-top: 12px;
+  text-align: center;
+}
+
+header #main_menu li {
+  display: inline;
+  margin: 0 57px;
+}
+
+header #main_menu a:link {
+  color: #0468BF;
+}
+
+header #main_menu a:visited {
+  color: #0468BF;
+}
+
+header #main_menu a:hover {
+  color: #F2B705;
+  border-bottom: 2px solid currentColor;
+
+}
+
+header #main_menu a:active {
+  color: #F2B705;
+}
+
+/* --------- 서브 메뉴 ---------- */
+
+header #sub_menu {
+  height: 38px;
+  margin-top: 5px;
+}
+
+header #sub_menu ul {
+  width: 990px;
+  margin: auto;
+  /* border: solid 1px #ff0000; */
+  padding-top: 12px;
+  text-align: center;
+}
+
+header #sub_menu li {
+  display: inline;
+  margin: 0 57px;
+}
+
+header #sub_menu a:link {
+  color: #b8b8b8;
+}
+
+header #sub_menu a:visited {
+  color: #b8b8b8;
+}
+
+header #sub_menu a:hover {
+  color: black;
+  border-bottom: 2px solid currentColor;
+
+}
+
+header #sub_menu a:active {
+  color: black;
+}
+
+
+/* ----------- footer ------------- */
+
+footer {
+  height: 80px;
+  margin-top: 50px;
+}
+
+footer #footer_menu_box {
+  height: 40px;
+  border-top: solid 1px black;
+}
+
+footer #footer_menu {
+  width: 990px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+footer #footer_menu ul  {
+  margin-left: 210px;
+}
+
+footer #footer_menu li {
+  display: inline;
+  margin-left: 30px;
+}
+
+footer #footer_menu a:link {
+  color: #b8b8b8;
+}
+
+footer #footer_menu a:visited {
+  color: #b8b8b8;
+}
+
+footer #footer_menu a:hover {
+  color: #0468BF;
+}
+
+footer #footer_menu a:active {
+  color: #0468BF;
+}
+
+footer #footer_box {
+  width: 990px;
+  margin: auto;
+}
+
+footer #footer_box div {
+  float: left;
+}
+
+footer #footer_box #footer_logo {
+  margin: -20px 0 0 30px;
+}
